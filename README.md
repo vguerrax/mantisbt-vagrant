@@ -15,8 +15,8 @@
 
 ### Up and Running
 ```
-$ git clone https://github.com/julianogpc/mantisbt.git
-$ cd mantisbt
+$ git clone https://github.com/victorguerra1406/mantisbt-vagrant.git
+$ cd mantisbt-vagrant
 $ vagrant up
 ```
 
@@ -54,9 +54,6 @@ $ vagrant destroy
 
 ### Installation Options
 ```
-$ firefox http://localhost:8080/admin/install.php
-```
-```
 Type of Database                                        MySQL/MySQLi
 Hostname (for Database Server)                          mysql
 Username (for Database)                                 mantisbt
@@ -67,9 +64,4 @@ Admin Password (to create Database if required)         root
 Default Time Zone                                       Sao Paulo
 Print SQL Queries instead of Writing to the Database    [ ]
 Attempt Installation                                    [Install/Upgrade Database]
-```
-```
-$ firefox http://localhost:8080/
->>> username: administrator
->>> password: root
 ```
